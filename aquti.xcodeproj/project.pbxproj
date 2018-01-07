@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1086051FF937A700C262A4 /* DetailViewControllerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1086041FF937A700C262A4 /* DetailViewControllerTableCell.swift */; };
+		0E12CAA61FF5177000699CA8 /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E12CAA51FF5177000699CA8 /* TypeViewController.swift */; };
+		0E13284D1FFBD01B00AD6CC8 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E13284C1FFBD01B00AD6CC8 /* Weather.swift */; };
+		0E1B4B251FEE978B00CD905D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B4B241FEE978B00CD905D /* PageViewController.swift */; };
+		0E5F38851FEEA44A00C3E9B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5F38841FEEA44A00C3E9B4 /* DetailViewController.swift */; };
+		0E66A3751FFB897E00F503B6 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E66A3741FFB897E00F503B6 /* WeatherService.swift */; };
+		0E705E741FED362D0081E1DA /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E705E731FED362D0081E1DA /* LocationServices.swift */; };
+		0E70DEE3200163FA00260290 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E70DEE1200163FA00260290 /* GoogleMapsCore.framework */; };
+		0E70DEE4200163FA00260290 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E70DEE2200163FA00260290 /* GoogleMaps.framework */; };
 		0EB754441FEBCD2600F8B8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754431FEBCD2600F8B8B6 /* AppDelegate.swift */; };
-		0EB754461FEBCD2600F8B8B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754451FEBCD2600F8B8B6 /* ViewController.swift */; };
+		0EB754461FEBCD2600F8B8B6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754451FEBCD2600F8B8B6 /* MapViewController.swift */; };
 		0EB754491FEBCD2600F8B8B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB754471FEBCD2600F8B8B6 /* Main.storyboard */; };
 		0EB7544B1FEBCD2600F8B8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EB7544A1FEBCD2600F8B8B6 /* Assets.xcassets */; };
 		0EB7544E1FEBCD2600F8B8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB7544C1FEBCD2600F8B8B6 /* LaunchScreen.storyboard */; };
 		0EB754591FEBCD2600F8B8B6 /* aqutiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754581FEBCD2600F8B8B6 /* aqutiTests.swift */; };
 		0EB754641FEBCD2600F8B8B6 /* aqutiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754631FEBCD2600F8B8B6 /* aqutiUITests.swift */; };
+		1E7FD6379AA1D2E870CC82D0 /* Pods_aqutiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD0613A812BCDB021EDE4F9 /* Pods_aqutiTests.framework */; };
+		9BFF5EC35A84449D1B306B9F /* Pods_aqutiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F62663359397921B0F7CA0 /* Pods_aqutiUITests.framework */; };
+		B08A1CC633ADE494C5BA53E3 /* Pods_aquti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2C61DBED4B8105128B807 /* Pods_aquti.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD0613A812BCDB021EDE4F9 /* Pods_aqutiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aqutiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1086041FF937A700C262A4 /* DetailViewControllerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTableCell.swift; sourceTree = "<group>"; };
+		0E12CAA51FF5177000699CA8 /* TypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+		0E13284C1FFBD01B00AD6CC8 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		0E1B4B241FEE978B00CD905D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0E5F38841FEEA44A00C3E9B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0E66A3741FFB897E00F503B6 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		0E705E731FED362D0081E1DA /* LocationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
+		0E70DEE1200163FA00260290 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		0E70DEE2200163FA00260290 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		0E7284F000D55B5B8580E66F /* Pods-aquti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aquti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aquti/Pods-aquti.debug.xcconfig"; sourceTree = "<group>"; };
 		0EB754401FEBCD2500F8B8B6 /* aquti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aquti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB754431FEBCD2600F8B8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0EB754451FEBCD2600F8B8B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EB754451FEBCD2600F8B8B6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0EB754481FEBCD2600F8B8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EB7544A1FEBCD2600F8B8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EB7544D1FEBCD2600F8B8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +70,13 @@
 		0EB7545F1FEBCD2600F8B8B6 /* aqutiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aqutiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB754631FEBCD2600F8B8B6 /* aqutiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqutiUITests.swift; sourceTree = "<group>"; };
 		0EB754651FEBCD2600F8B8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E554587B80CB72A33972B75 /* Pods-aqutiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aqutiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aqutiTests/Pods-aqutiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39C2C61DBED4B8105128B807 /* Pods_aquti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aquti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9538F6FF514049D9F15D82A8 /* Pods-aquti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aquti.release.xcconfig"; path = "Pods/Target Support Files/Pods-aquti/Pods-aquti.release.xcconfig"; sourceTree = "<group>"; };
+		B4F62663359397921B0F7CA0 /* Pods_aqutiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aqutiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBA0D288A4D50CC3E694CEA /* Pods-aqutiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aqutiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aqutiUITests/Pods-aqutiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E157F8217A67EB405D707A5C /* Pods-aqutiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aqutiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aqutiTests/Pods-aqutiTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB7D27E6AA9671C11093771E /* Pods-aqutiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aqutiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aqutiUITests/Pods-aqutiUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E70DEE4200163FA00260290 /* GoogleMaps.framework in Frameworks */,
+				B08A1CC633ADE494C5BA53E3 /* Pods_aquti.framework in Frameworks */,
+				0E70DEE3200163FA00260290 /* GoogleMapsCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E7FD6379AA1D2E870CC82D0 /* Pods_aqutiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFF5EC35A84449D1B306B9F /* Pods_aqutiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E12CAA41FF5171B00699CA8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0EB754451FEBCD2600F8B8B6 /* MapViewController.swift */,
+				0E5F38841FEEA44A00C3E9B4 /* DetailViewController.swift */,
+				0E1B4B241FEE978B00CD905D /* PageViewController.swift */,
+				0E12CAA51FF5177000699CA8 /* TypeViewController.swift */,
+				0E1086041FF937A700C262A4 /* DetailViewControllerTableCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0E13284B1FFBD00100AD6CC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E13284C1FFBD01B00AD6CC8 /* Weather.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E705E721FED35FF0081E1DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0E705E731FED362D0081E1DA /* LocationServices.swift */,
+				0E66A3741FFB897E00F503B6 /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		0EB754371FEBCD2500F8B8B6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +145,8 @@
 				0EB754571FEBCD2600F8B8B6 /* aqutiTests */,
 				0EB754621FEBCD2600F8B8B6 /* aqutiUITests */,
 				0EB754411FEBCD2500F8B8B6 /* Products */,
+				CC42FAD0B461ACA34A98C273 /* Pods */,
+				CFAD578C33E45323BE70EF72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +163,10 @@
 		0EB754421FEBCD2600F8B8B6 /* aquti */ = {
 			isa = PBXGroup;
 			children = (
+				0E13284B1FFBD00100AD6CC8 /* Model */,
+				0E12CAA41FF5171B00699CA8 /* Controllers */,
+				0E705E721FED35FF0081E1DA /* Services */,
 				0EB754431FEBCD2600F8B8B6 /* AppDelegate.swift */,
-				0EB754451FEBCD2600F8B8B6 /* ViewController.swift */,
 				0EB754471FEBCD2600F8B8B6 /* Main.storyboard */,
 				0EB7544A1FEBCD2600F8B8B6 /* Assets.xcassets */,
 				0EB7544C1FEBCD2600F8B8B6 /* LaunchScreen.storyboard */,
@@ -125,6 +193,31 @@
 			path = aqutiUITests;
 			sourceTree = "<group>";
 		};
+		CC42FAD0B461ACA34A98C273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E7284F000D55B5B8580E66F /* Pods-aquti.debug.xcconfig */,
+				9538F6FF514049D9F15D82A8 /* Pods-aquti.release.xcconfig */,
+				1E554587B80CB72A33972B75 /* Pods-aqutiTests.debug.xcconfig */,
+				E157F8217A67EB405D707A5C /* Pods-aqutiTests.release.xcconfig */,
+				FB7D27E6AA9671C11093771E /* Pods-aqutiUITests.debug.xcconfig */,
+				CEBA0D288A4D50CC3E694CEA /* Pods-aqutiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFAD578C33E45323BE70EF72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E70DEE2200163FA00260290 /* GoogleMaps.framework */,
+				0E70DEE1200163FA00260290 /* GoogleMapsCore.framework */,
+				39C2C61DBED4B8105128B807 /* Pods_aquti.framework */,
+				0AD0613A812BCDB021EDE4F9 /* Pods_aqutiTests.framework */,
+				B4F62663359397921B0F7CA0 /* Pods_aqutiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB754681FEBCD2600F8B8B6 /* Build configuration list for PBXNativeTarget "aquti" */;
 			buildPhases = (
+				B0DE79ECBB5D2849A9B6028F /* [CP] Check Pods Manifest.lock */,
 				0EB7543C1FEBCD2500F8B8B6 /* Sources */,
 				0EB7543D1FEBCD2500F8B8B6 /* Frameworks */,
 				0EB7543E1FEBCD2500F8B8B6 /* Resources */,
+				32B73FF505A314EA93F5DE3A /* [CP] Embed Pods Frameworks */,
+				E1E27776714E0D47C2DBA4FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB7546B1FEBCD2600F8B8B6 /* Build configuration list for PBXNativeTarget "aqutiTests" */;
 			buildPhases = (
+				279F7CC690AE1727E7485682 /* [CP] Check Pods Manifest.lock */,
 				0EB754501FEBCD2600F8B8B6 /* Sources */,
 				0EB754511FEBCD2600F8B8B6 /* Frameworks */,
 				0EB754521FEBCD2600F8B8B6 /* Resources */,
+				773263B9541A91FF4821598E /* [CP] Embed Pods Frameworks */,
+				74DF7014B47188A47BCD27B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB7546E1FEBCD2600F8B8B6 /* Build configuration list for PBXNativeTarget "aqutiUITests" */;
 			buildPhases = (
+				2C3D90C1D06334BBD492B4DC /* [CP] Check Pods Manifest.lock */,
 				0EB7545B1FEBCD2600F8B8B6 /* Sources */,
 				0EB7545C1FEBCD2600F8B8B6 /* Frameworks */,
 				0EB7545D1FEBCD2600F8B8B6 /* Resources */,
+				D78743A6E78189FC0AC62201 /* [CP] Embed Pods Frameworks */,
+				8E1406B502A4D3AA9B833759 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +356,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		279F7CC690AE1727E7485682 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aqutiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C3D90C1D06334BBD492B4DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aqutiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32B73FF505A314EA93F5DE3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aquti/Pods-aquti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DF7014B47188A47BCD27B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aqutiTests/Pods-aqutiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773263B9541A91FF4821598E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aqutiTests/Pods-aqutiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1406B502A4D3AA9B833759 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aqutiUITests/Pods-aqutiUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0DE79ECBB5D2849A9B6028F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aquti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78743A6E78189FC0AC62201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aqutiUITests/Pods-aqutiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E27776714E0D47C2DBA4FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-aquti/Pods-aquti-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aquti/Pods-aquti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EB7543C1FEBCD2500F8B8B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB754461FEBCD2600F8B8B6 /* ViewController.swift in Sources */,
+				0E66A3751FFB897E00F503B6 /* WeatherService.swift in Sources */,
+				0E1086051FF937A700C262A4 /* DetailViewControllerTableCell.swift in Sources */,
+				0EB754461FEBCD2600F8B8B6 /* MapViewController.swift in Sources */,
+				0E12CAA61FF5177000699CA8 /* TypeViewController.swift in Sources */,
+				0E13284D1FFBD01B00AD6CC8 /* Weather.swift in Sources */,
+				0E705E741FED362D0081E1DA /* LocationServices.swift in Sources */,
+				0E5F38851FEEA44A00C3E9B4 /* DetailViewController.swift in Sources */,
 				0EB754441FEBCD2600F8B8B6 /* AppDelegate.swift in Sources */,
+				0E1B4B251FEE978B00CD905D /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +684,21 @@
 		};
 		0EB754691FEBCD2600F8B8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7284F000D55B5B8580E66F /* Pods-aquti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 545954QHVM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
 				INFOPLIST_FILE = aquti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Wout.aquti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +706,21 @@
 		};
 		0EB7546A1FEBCD2600F8B8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9538F6FF514049D9F15D82A8 /* Pods-aquti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 545954QHVM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
 				INFOPLIST_FILE = aquti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Wout.aquti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,6 +728,7 @@
 		};
 		0EB7546C1FEBCD2600F8B8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E554587B80CB72A33972B75 /* Pods-aqutiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +745,7 @@
 		};
 		0EB7546D1FEBCD2600F8B8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E157F8217A67EB405D707A5C /* Pods-aqutiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +762,7 @@
 		};
 		0EB7546F1FEBCD2600F8B8B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB7D27E6AA9671C11093771E /* Pods-aqutiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +778,7 @@
 		};
 		0EB754701FEBCD2600F8B8B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEBA0D288A4D50CC3E694CEA /* Pods-aqutiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
