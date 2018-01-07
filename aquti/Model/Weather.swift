@@ -10,40 +10,15 @@ import Foundation
 
 struct Weather {
     
-    let dateAndTime: NSDate
-    
-    let city: String
-    let country: String
-    let longitude: Double
-    let latitude: Double
-    
-    let weatherID: Int
-    let mainWeather: String
-    let weatherDescription: String
-    let weatherIconID: String
-    
-    // OpenWeatherMap reports temperature in Kelvin,
-    // which is why we provide celsius and fahrenheit
-    // computed properties.
     private let temp: Double
-    var tempCelsius: Double {
+    var tempCelsius: Int {
         get {
-            return temp - 273.15
+            return Int(temp - 273.15)
         }
     }
-    var tempFahrenheit: Double {
-        get {
-            return (temp - 273.15) * 1.8 + 32
-        }
-    }
-    let humidity: Int
-    let pressure: Int
-    let cloudCover: Int
+
     let windSpeed: Double
     
-    // These properties are optionals because OpenWeatherMap doesn't provide:
-    // - a value for wind direction when the wind speed is negligible
-    // - rain info when there is no rainfall
     let windDirection: Double?
     let rainfallInLast3Hours: Double
     
@@ -51,29 +26,13 @@ struct Weather {
     let sunset: NSDate
     
     init(weatherData: [String: AnyObject]) {
-        dateAndTime = NSDate(timeIntervalSince1970: weatherData["dt"] as! TimeInterval)
-        city = weatherData["name"] as! String
-        
-        let coordDict = weatherData["coord"] as! [String: AnyObject]
-        longitude = coordDict["lon"] as! Double
-        latitude = coordDict["lat"] as! Double
-        
-        let weatherDict = weatherData["weather"]![0] as! [String: AnyObject]
-        weatherID = weatherDict["id"] as! Int
-        mainWeather = weatherDict["main"] as! String
-        weatherDescription = weatherDict["description"] as! String
-        weatherIconID = weatherDict["icon"] as! String
         
         let mainDict = weatherData["main"] as! [String: AnyObject]
         temp = mainDict["temp"] as! Double
-        humidity = mainDict["humidity"] as! Int
-        pressure = mainDict["pressure"] as! Int
-        
-        cloudCover = weatherData["clouds"]!["all"] as! Int
         
         let windDict = weatherData["wind"] as! [String: AnyObject]
-        windSpeed = windDict["speed"] as! Double
-        windDirection = windDict["deg"] as? Double
+        windSpeed = pow(((windDict["speed"] as! Double)/0.836), 2/3)
+        windDirection = windDict["deg"] as? Double   // is useful for the waves but hard to implement
         
         if weatherData["rain"] != nil {   // rain is bugged in OpenWeatherMap and is possibly nil
             let rainDict = weatherData["rain"] as! [String: AnyObject]
@@ -89,7 +48,6 @@ struct Weather {
         }
         
         let sysDict = weatherData["sys"] as! [String: AnyObject]
-        country = sysDict["country"] as! String
         sunrise = NSDate(timeIntervalSince1970: sysDict["sunrise"] as! TimeInterval)
         sunset = NSDate(timeIntervalSince1970:sysDict["sunset"] as! TimeInterval)
     }

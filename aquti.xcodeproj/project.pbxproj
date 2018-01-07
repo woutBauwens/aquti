@@ -23,6 +23,7 @@
 		0EB7544E1FEBCD2600F8B8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB7544C1FEBCD2600F8B8B6 /* LaunchScreen.storyboard */; };
 		0EB754591FEBCD2600F8B8B6 /* aqutiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754581FEBCD2600F8B8B6 /* aqutiTests.swift */; };
 		0EB754641FEBCD2600F8B8B6 /* aqutiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB754631FEBCD2600F8B8B6 /* aqutiUITests.swift */; };
+		0EF97E152002648B00ED6EFF /* Kayak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF97E142002648B00ED6EFF /* Kayak.swift */; };
 		1E7FD6379AA1D2E870CC82D0 /* Pods_aqutiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD0613A812BCDB021EDE4F9 /* Pods_aqutiTests.framework */; };
 		9BFF5EC35A84449D1B306B9F /* Pods_aqutiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F62663359397921B0F7CA0 /* Pods_aqutiUITests.framework */; };
 		B08A1CC633ADE494C5BA53E3 /* Pods_aquti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C2C61DBED4B8105128B807 /* Pods_aquti.framework */; };
@@ -70,6 +71,7 @@
 		0EB7545F1FEBCD2600F8B8B6 /* aqutiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aqutiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB754631FEBCD2600F8B8B6 /* aqutiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aqutiUITests.swift; sourceTree = "<group>"; };
 		0EB754651FEBCD2600F8B8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EF97E142002648B00ED6EFF /* Kayak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kayak.swift; sourceTree = "<group>"; };
 		1E554587B80CB72A33972B75 /* Pods-aqutiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aqutiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aqutiTests/Pods-aqutiTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39C2C61DBED4B8105128B807 /* Pods_aquti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aquti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9538F6FF514049D9F15D82A8 /* Pods-aquti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aquti.release.xcconfig"; path = "Pods/Target Support Files/Pods-aquti/Pods-aquti.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				0E13284C1FFBD01B00AD6CC8 /* Weather.swift */,
+				0EF97E142002648B00ED6EFF /* Kayak.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -515,6 +518,7 @@
 				0E66A3751FFB897E00F503B6 /* WeatherService.swift in Sources */,
 				0E1086051FF937A700C262A4 /* DetailViewControllerTableCell.swift in Sources */,
 				0EB754461FEBCD2600F8B8B6 /* MapViewController.swift in Sources */,
+				0EF97E152002648B00ED6EFF /* Kayak.swift in Sources */,
 				0E12CAA61FF5177000699CA8 /* TypeViewController.swift in Sources */,
 				0E13284D1FFBD01B00AD6CC8 /* Weather.swift in Sources */,
 				0E705E741FED362D0081E1DA /* LocationServices.swift in Sources */,

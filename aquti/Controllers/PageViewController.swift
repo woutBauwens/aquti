@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+// Used tutorial, forgot to add source, did not find source later
 class PageViewController: UIPageViewController {
     
     var waterType = String()
@@ -18,9 +19,9 @@ class PageViewController: UIPageViewController {
     private var seconds = 10
     private var detailList: [[String]] {
         if(waterType == "Whitewater") {
-            return [["Zonsondergang binnen","Vaartijd", "Afstand", "Gem. Snelheid", "Afdaling"], [seconds.description, 0.description, 0.description]]
+            return [["Zonsondergang","Vaartijd", "Afstand", "Gem. Snelheid", "Afdaling"], [seconds.description, 0.description, 0.description]]
         } else {
-            return [["Zonsondergang binnen","Vaartijd","Afstand", "Gem. Snelheid", "Huidige snelheid"], [seconds.description, 0.description, 0.description]]
+            return [["Zonsondergang","Vaartijd","Afstand", "Gem. Snelheid", "Huidige snelheid"], [seconds.description, 0.description, 0.description]]
         }
     }
     
@@ -29,7 +30,6 @@ class PageViewController: UIPageViewController {
         
         dataSource = self
         
-        time = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(PageViewController.updateTimer), userInfo: nil, repeats: true)
         if let firstViewController = orderedViewControllers.first {
             setViewControllers([firstViewController],
                                direction: .forward,
@@ -58,13 +58,7 @@ class PageViewController: UIPageViewController {
                 instantiateViewController(withIdentifier: "DetailViewController")
         }
     }
-    
-    @objc func updateTimer() {
-        seconds += 1     //This will decrement(count down)the seconds.
-    }
 }
-
-// MARK: UIPageViewControllerDataSource
 
 extension PageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {

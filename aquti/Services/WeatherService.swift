@@ -15,6 +15,9 @@ protocol WeatherGetterDelegate {
 
 class WeatherService {
     
+    // Followed tutorial to use openweathermaps
+    // Adapted code to fit requirements
+    // Source: http://www.globalnerdy.com/2016/04/02/how-to-build-an-ios-weather-app-in-swift-part-1-a-very-bare-bones-weather-app/
     private let openWeatherMapURL = "http://api.openweathermap.org/data/2.5/weather"
     private let openWeatherMapAPIKey = "15e62b062f6acadb28d9134906aa6203"
     
@@ -24,53 +27,30 @@ class WeatherService {
         self.delegate = delegate
     }
     
-    func getWeahterInformation(city: String) {
+    func getWeahterInformation(lat: String, long: String, updateView: Bool) {
         
-        // *** 1 ***
         let session = URLSession.shared
         
-        // *** 2 ***
-        let weatherRequestURL = URL(string: "\(openWeatherMapURL)?APPID=\(openWeatherMapAPIKey)&q=\(city)")!
+        let url = URL(string: "\(openWeatherMapURL)?APPID=\(openWeatherMapAPIKey)&lat=\(lat)&lon=\(long)")!
         
-        // *** 3 ***
-        let dataTask = session.dataTask(with: weatherRequestURL) {
+        let dataTask = session.dataTask(with: url) {
             (data, response, error) in
-            if let error = error {
-                // Case 1: Error
-                // We got some kind of error while trying to get data from the server.
-                print("Error:\n\(error)")
-            }
-                // *** 5 ***
-            else {
-                // Case 2: Success
-                // We got a response from the server!
                 do {
                     // Try to convert that data into a Swift dictionary
                     let weatherDictionary = try JSONSerialization.jsonObject(
                         with: data!,
                         options: .mutableContainers) as! Dictionary<String, AnyObject>
                     
-                        print("Date and time: \(weatherDictionary["dt"]!)")
-                    
                         let weather = Weather(weatherData: weatherDictionary)
                     
+                    if(updateView){
                         self.delegate.didGetWeather(weather: weather)
+                    }
                 }  catch let error as NSError {
                     print(error.localizedDescription)
                 }
             }
-        }
         
-        // *** 6 ***
         dataTask.resume()
-    }
-    
-    func getWindSpeed() -> String {
-     //   if(dictionary == nil){
-     //       getWeahterInformation(city: "Ghent")
-     //   }
-     //   return dictionary["dt"]! as! String
-        
-        return "Not connected"
     }
 }

@@ -33,7 +33,9 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     private func initMapView(){
         
-       // manager = LocationService()
+        // based on Google Map
+        // Source: https://developers.google.com/maps/documentation/ios-sdk/start
+        
         marker.icon = UIImage(named: "Marker.png")
         camera = GMSCameraPosition.camera(withLatitude: LocationService.sharedInstance.currentLocation.coordinate.latitude, longitude: LocationService.sharedInstance.currentLocation.coordinate.longitude, zoom: 16.0)
 
@@ -47,12 +49,14 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         
         self.view = mapView
             
-            // Creates a marker in the center of the map.
+            // Creates a marker at the starting position
         marker.position = CLLocationCoordinate2D(latitude: LocationService.sharedInstance.currentLocation.coordinate.latitude, longitude: LocationService.sharedInstance.currentLocation.coordinate.longitude)
         marker.map = mapView
+        
+        LocationService.sharedInstance.mapDelegate = self
     }
     
-    @objc private func update(){
+    func update(){
         mapView.animate(to: GMSCameraPosition.camera(withLatitude: LocationService.sharedInstance.currentLocation.coordinate.latitude, longitude: LocationService.sharedInstance.currentLocation.coordinate.longitude, zoom: 16.0))
     }
 }

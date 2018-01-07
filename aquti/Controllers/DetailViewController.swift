@@ -24,6 +24,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     
     private var time = Timer()
     private var seconds = 0
+    // Source: https://medium.com/ios-os-x-development/build-an-stopwatch-with-swift-3-0-c7040818a10f
     private func timeString(time:TimeInterval) -> String {
         let hours = Int(time) / 3600
         let minutes = Int(time) / 60 % 60
@@ -89,15 +90,14 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         cell.Info.text = detailList[0][indexPath.row]
         
         let dist = LocationService.sharedInstance.getDistance()
-  //      ["Vaartijd","Afstand", "Gem. Snelheid", "Huidige snelheid"]
         switch cell.Info.text! {
-        case "Zonsondergang binnen":
+        case "Zonsondergang":
             cell.Value.text = timeString(time: TimeInterval(secondsToSunset))
         case "Vaartijd":
             cell.Value.text = timeString(time: TimeInterval(seconds))
             break
         case "Afstand":
-            cell.Value.text = Int(dist/1000).description + " km"
+            cell.Value.text = Double(round(100*(dist/1000))/100).description + " km"
             break
         case "Gem. Snelheid":
             let kmh = Double(seconds)/3.6
