@@ -14,3 +14,5 @@ The application is made for whitewater and seakayakers and contains:
           
     -  GPS tracking of the current position because the view on the water it is difficult to know where you actually are
     -  The location of the start position (good to know where to return to if lost) with "camp" symbol
+
+The idea seemed usefull to me since I have not found an application like this specificly for kayakkers
