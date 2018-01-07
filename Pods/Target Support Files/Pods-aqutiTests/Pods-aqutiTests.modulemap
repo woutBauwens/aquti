@@ -1,0 +1,6 @@
+framework module Pods_aqutiTests {
+  umbrella header "Pods-aqutiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

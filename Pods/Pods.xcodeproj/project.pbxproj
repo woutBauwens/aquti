@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152A5D664D25CDD66BFE7338B3954B1B /* Pods-aqutiUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EF9D80ECA341CD056BFBC15D8AE876 /* Pods-aqutiUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F08B19FE125378240B8938868AB3E27 /* Pods-aquti-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E93499C191766B38750B854398F3C095 /* Pods-aquti-dummy.m */; };
+		5133091DD5647585C5AD4A0FC963F96B /* Pods-aqutiTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08410DABF6B403DB388A3F0F076D6D2B /* Pods-aqutiTests-dummy.m */; };
+		6F76CBC356A799B2211947FDF7C293FF /* Pods-aqutiUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3F291975C733ABE2972F12804F5D05 /* Pods-aqutiUITests-dummy.m */; };
+		AB69D0EB49664DA5C02D8568190A7355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B91F321572FB5A754C2F2D1556E77B35 /* Pods-aquti-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D57188E90E2309A7214D00ED3A02FBA7 /* Pods-aquti-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA5DAC5D9264B9371933EBB6DA9A5F95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DF924D38089275EBE3068C7BDD500AD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5F4CE83A965D863FA3004694DBDA52C /* Pods-aqutiTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F9B91CAC0BDF77FF47CDED9463EEBA /* Pods-aqutiTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08410DABF6B403DB388A3F0F076D6D2B /* Pods-aqutiTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aqutiTests-dummy.m"; sourceTree = "<group>"; };
+		08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		0BC63DDF0726DC3340F018911FA67AD0 /* Pods-aqutiUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aqutiUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12E87A3B6B6F3F1A0FDAFFCC973C06B3 /* Pods-aqutiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aqutiTests.release.xcconfig"; sourceTree = "<group>"; };
+		154F8358DAB41F593554D9BB94E3378C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		46C598EA24323525EB88E6B0B7242BF1 /* Pods-aquti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aquti.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC841D50E6D5605BED328807C1F6041 /* Pods_aquti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_aquti.framework; path = "Pods-aquti.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		501F1AE83F4BC72EFE6449B508CCF42A /* Pods-aqutiTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-aqutiTests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		70F9B91CAC0BDF77FF47CDED9463EEBA /* Pods-aqutiTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aqutiTests-umbrella.h"; sourceTree = "<group>"; };
+		71DED5E13452C7F9385E8C56D9300980 /* Pods-aqutiUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aqutiUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72BFF7C7590788BAB04064857539115B /* Pods-aqutiTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aqutiTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		778F87A5F18B7B4289FBFA406E53C159 /* Pods-aqutiTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aqutiTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B5C9B266DE3CA89D756164B3A29CD2F /* Pods-aquti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aquti.release.xcconfig"; sourceTree = "<group>"; };
+		8265DEEE128A1D7FCB8D615D5E3C0C0B /* Pods-aquti.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-aquti.modulemap"; sourceTree = "<group>"; };
+		8BE5F7DC9C31EA31FA5B6C84616A9831 /* Pods-aquti-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aquti-frameworks.sh"; sourceTree = "<group>"; };
+		8F2683393072BA27A4FDC999193E8F0B /* Pods-aqutiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aqutiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9585C092B3AE1C44339040D6B6F84A0B /* Pods-aqutiUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aqutiUITests-resources.sh"; sourceTree = "<group>"; };
+		A4F0077DA2D98238AAFF3C68F797872C /* Pods-aqutiTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aqutiTests-resources.sh"; sourceTree = "<group>"; };
+		A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B58C370E6FFE193DC8A316207EE3E08E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C0C614AD82EEFA8ED20276924FBDC7 /* Pods_aqutiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_aqutiTests.framework; path = "Pods-aqutiTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8384CA0CD0084AD9D50BCB058422784 /* Pods-aqutiTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aqutiTests-frameworks.sh"; sourceTree = "<group>"; };
+		BBEEDC20C9343814250779488BE532E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C070C547E2CD7D0AF1C73A4E8143F2 /* Pods-aquti-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-aquti-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D27D0EDEDA96EB83A8A849C948ED9DEB /* Pods-aqutiUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-aqutiUITests.modulemap"; sourceTree = "<group>"; };
+		D340C7D7035CC1FD20354AA599CC3239 /* Pods-aquti-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-aquti-acknowledgements.plist"; sourceTree = "<group>"; };
+		D57188E90E2309A7214D00ED3A02FBA7 /* Pods-aquti-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aquti-umbrella.h"; sourceTree = "<group>"; };
+		DE3F291975C733ABE2972F12804F5D05 /* Pods-aqutiUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aqutiUITests-dummy.m"; sourceTree = "<group>"; };
+		E82C8D18F31B27ADA0C08C2ABBED85F4 /* Pods-aqutiUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aqutiUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E93499C191766B38750B854398F3C095 /* Pods-aquti-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-aquti-dummy.m"; sourceTree = "<group>"; };
+		EF91664E7470A48F41FCC56F7A644DB8 /* Pods_aqutiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_aqutiUITests.framework; path = "Pods-aqutiUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2371D9E6620DC1332690D7A4BDEF3AA /* Pods-aqutiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aqutiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F381D864C42CE7652CF6AD97519CAFFD /* Pods-aqutiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-aqutiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4EF9D80ECA341CD056BFBC15D8AE876 /* Pods-aqutiUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-aqutiUITests-umbrella.h"; sourceTree = "<group>"; };
+		FD355B1AAB2291626F05CB6F1D9F82EB /* Pods-aquti-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-aquti-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7FC54BB6FFB5653DE4290B19500AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5DAC5D9264B9371933EBB6DA9A5F95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EDC991C67F1723CFCD1D219E739CFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB69D0EB49664DA5C02D8568190A7355 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B911BF2D134AF2FC7A9898292D5F2748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF924D38089275EBE3068C7BDD500AD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				475420FA59EFC8377CF994A338979247 /* Frameworks */,
+				09DB508F39D8BE758EA4A7B9047268E9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		09DB508F39D8BE758EA4A7B9047268E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A65ED65616C5861E2765BDC60AAAF910 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1742BDFD669321031C6A81F4FDB9B5B0 /* Pods-aqutiTests */ = {
+			isa = PBXGroup;
+			children = (
+				154F8358DAB41F593554D9BB94E3378C /* Info.plist */,
+				501F1AE83F4BC72EFE6449B508CCF42A /* Pods-aqutiTests.modulemap */,
+				72BFF7C7590788BAB04064857539115B /* Pods-aqutiTests-acknowledgements.markdown */,
+				778F87A5F18B7B4289FBFA406E53C159 /* Pods-aqutiTests-acknowledgements.plist */,
+				08410DABF6B403DB388A3F0F076D6D2B /* Pods-aqutiTests-dummy.m */,
+				B8384CA0CD0084AD9D50BCB058422784 /* Pods-aqutiTests-frameworks.sh */,
+				A4F0077DA2D98238AAFF3C68F797872C /* Pods-aqutiTests-resources.sh */,
+				70F9B91CAC0BDF77FF47CDED9463EEBA /* Pods-aqutiTests-umbrella.h */,
+				F381D864C42CE7652CF6AD97519CAFFD /* Pods-aqutiTests.debug.xcconfig */,
+				12E87A3B6B6F3F1A0FDAFFCC973C06B3 /* Pods-aqutiTests.release.xcconfig */,
+			);
+			name = "Pods-aqutiTests";
+			path = "Target Support Files/Pods-aqutiTests";
+			sourceTree = "<group>";
+		};
+		1E95FA3588CCDB4D2E819BA3B0B3598C /* Pods-aqutiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEEDC20C9343814250779488BE532E2 /* Info.plist */,
+				D27D0EDEDA96EB83A8A849C948ED9DEB /* Pods-aqutiUITests.modulemap */,
+				71DED5E13452C7F9385E8C56D9300980 /* Pods-aqutiUITests-acknowledgements.markdown */,
+				0BC63DDF0726DC3340F018911FA67AD0 /* Pods-aqutiUITests-acknowledgements.plist */,
+				DE3F291975C733ABE2972F12804F5D05 /* Pods-aqutiUITests-dummy.m */,
+				E82C8D18F31B27ADA0C08C2ABBED85F4 /* Pods-aqutiUITests-frameworks.sh */,
+				9585C092B3AE1C44339040D6B6F84A0B /* Pods-aqutiUITests-resources.sh */,
+				F4EF9D80ECA341CD056BFBC15D8AE876 /* Pods-aqutiUITests-umbrella.h */,
+				F2371D9E6620DC1332690D7A4BDEF3AA /* Pods-aqutiUITests.debug.xcconfig */,
+				8F2683393072BA27A4FDC999193E8F0B /* Pods-aqutiUITests.release.xcconfig */,
+			);
+			name = "Pods-aqutiUITests";
+			path = "Target Support Files/Pods-aqutiUITests";
+			sourceTree = "<group>";
+		};
+		26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B2F22323EA3B1ADB4F96376E3F709A68 /* Base */,
+				488E301C4ACDDA928635C4886F5F6158 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		343584E22C57489C672A8E6F731CB43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C6200385182862E9168588E60B1CD37 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		385FA015FFB9210F372AB1078B856AAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26C94CF6FBD559155351548F2127E7DB /* GoogleMaps */,
+				00B63D9B3EBC8ECAFD5DA8C24F1A42DF /* GooglePlaces */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		475420FA59EFC8377CF994A338979247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70324FDF1FBB41BEA92DE76E00BD3E96 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		488E301C4ACDDA928635C4886F5F6158 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */,
+				343584E22C57489C672A8E6F731CB43A /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		4BDDC2EED982C7295E17D42ADB706BF8 /* Pods-aquti */ = {
+			isa = PBXGroup;
+			children = (
+				B58C370E6FFE193DC8A316207EE3E08E /* Info.plist */,
+				8265DEEE128A1D7FCB8D615D5E3C0C0B /* Pods-aquti.modulemap */,
+				D0C070C547E2CD7D0AF1C73A4E8143F2 /* Pods-aquti-acknowledgements.markdown */,
+				D340C7D7035CC1FD20354AA599CC3239 /* Pods-aquti-acknowledgements.plist */,
+				E93499C191766B38750B854398F3C095 /* Pods-aquti-dummy.m */,
+				8BE5F7DC9C31EA31FA5B6C84616A9831 /* Pods-aquti-frameworks.sh */,
+				FD355B1AAB2291626F05CB6F1D9F82EB /* Pods-aquti-resources.sh */,
+				D57188E90E2309A7214D00ED3A02FBA7 /* Pods-aquti-umbrella.h */,
+				46C598EA24323525EB88E6B0B7242BF1 /* Pods-aquti.debug.xcconfig */,
+				7B5C9B266DE3CA89D756164B3A29CD2F /* Pods-aquti.release.xcconfig */,
+			);
+			name = "Pods-aquti";
+			path = "Target Support Files/Pods-aquti";
+			sourceTree = "<group>";
+		};
+		4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22C69ADCE7C9D529F11B17B4EF5E065 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				385FA015FFB9210F372AB1078B856AAB /* Pods */,
+				C2ACBD39342AB76D600F854D16A677B4 /* Products */,
+				FC7C99C9074CC5C6237863992EEA2732 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82CE66B3B7EC3F6274BF43A52FEEAE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F1229163C7F5E61C7C4B361510F11C /* GoogleMaps.framework */,
+				A92DFDA40F47C0FD221B2872C31099A1 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F22323EA3B1ADB4F96376E3F709A68 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4CFA8C2E94378AFFDBA3DF92FBE7E3DC /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2ACBD39342AB76D600F854D16A677B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BC841D50E6D5605BED328807C1F6041 /* Pods_aquti.framework */,
+				B5C0C614AD82EEFA8ED20276924FBDC7 /* Pods_aqutiTests.framework */,
+				EF91664E7470A48F41FCC56F7A644DB8 /* Pods_aqutiUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FC7C99C9074CC5C6237863992EEA2732 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BDDC2EED982C7295E17D42ADB706BF8 /* Pods-aquti */,
+				1742BDFD669321031C6A81F4FDB9B5B0 /* Pods-aqutiTests */,
+				1E95FA3588CCDB4D2E819BA3B0B3598C /* Pods-aqutiUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E88E544FC65B58DF1891D56E8C6A635 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152A5D664D25CDD66BFE7338B3954B1B /* Pods-aqutiUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88D8C48FB0B23ABF2CAA821A738823BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91F321572FB5A754C2F2D1556E77B35 /* Pods-aquti-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D005805661D626E73754EBD46CABD228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F4CE83A965D863FA3004694DBDA52C /* Pods-aqutiTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0591ACB5EE8A8A20C61F145411AEBAFE /* Pods-aqutiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5561A36733AB5D327A4B74A37E119BB /* Build configuration list for PBXNativeTarget "Pods-aqutiTests" */;
+			buildPhases = (
+				E56F4877C6A6EC4F90AEC10672A1857C /* Sources */,
+				6C7FC54BB6FFB5653DE4290B19500AE6 /* Frameworks */,
+				D005805661D626E73754EBD46CABD228 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-aqutiTests";
+			productName = "Pods-aqutiTests";
+			productReference = B5C0C614AD82EEFA8ED20276924FBDC7 /* Pods_aqutiTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E2CF68816B633E79A16C828A71F500C /* Pods-aquti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC963A6FC83C7CF303D8B5DC3C81284A /* Build configuration list for PBXNativeTarget "Pods-aquti" */;
+			buildPhases = (
+				F8D6BAAB06D3AF461680772E8D5465A6 /* Sources */,
+				B911BF2D134AF2FC7A9898292D5F2748 /* Frameworks */,
+				88D8C48FB0B23ABF2CAA821A738823BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-aquti";
+			productName = "Pods-aquti";
+			productReference = 4BC841D50E6D5605BED328807C1F6041 /* Pods_aquti.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9B46F0679A03FE80587AFFE50786D60 /* Pods-aqutiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1931339DFF87776F92ADC6A9D2106272 /* Build configuration list for PBXNativeTarget "Pods-aqutiUITests" */;
+			buildPhases = (
+				C98C810A56192F7AF9B6CB3384854F1D /* Sources */,
+				6EDC991C67F1723CFCD1D219E739CFAB /* Frameworks */,
+				1E88E544FC65B58DF1891D56E8C6A635 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-aqutiUITests";
+			productName = "Pods-aqutiUITests";
+			productReference = EF91664E7470A48F41FCC56F7A644DB8 /* Pods_aqutiUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C2ACBD39342AB76D600F854D16A677B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2CF68816B633E79A16C828A71F500C /* Pods-aquti */,
+				0591ACB5EE8A8A20C61F145411AEBAFE /* Pods-aqutiTests */,
+				F9B46F0679A03FE80587AFFE50786D60 /* Pods-aqutiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98C810A56192F7AF9B6CB3384854F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F76CBC356A799B2211947FDF7C293FF /* Pods-aqutiUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E56F4877C6A6EC4F90AEC10672A1857C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5133091DD5647585C5AD4A0FC963F96B /* Pods-aqutiTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D6BAAB06D3AF461680772E8D5465A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F08B19FE125378240B8938868AB3E27 /* Pods-aquti-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B8C2A14AA22A98F481AECD8C4000CCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E87A3B6B6F3F1A0FDAFFCC973C06B3 /* Pods-aqutiTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aqutiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aqutiTests/Pods-aqutiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_aqutiTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		37B575B2FF7EAD39BE81307C95E22733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5C9B266DE3CA89D756164B3A29CD2F /* Pods-aquti.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aquti/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aquti/Pods-aquti.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_aquti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4739A6551AFC3EDF0F6DA78A3E61EEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2371D9E6620DC1332690D7A4BDEF3AA /* Pods-aqutiUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aqutiUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aqutiUITests/Pods-aqutiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_aqutiUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8CB1DF8C1F7E9FC9A539A3E20106DF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2683393072BA27A4FDC999193E8F0B /* Pods-aqutiUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aqutiUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aqutiUITests/Pods-aqutiUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_aqutiUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AFE4C18B590AC140A3C88E7247A40F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C598EA24323525EB88E6B0B7242BF1 /* Pods-aquti.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aquti/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aquti/Pods-aquti.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_aquti;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB8C3580E9D900F67D92FAB3F511AB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F381D864C42CE7652CF6AD97519CAFFD /* Pods-aqutiTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-aqutiTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-aqutiTests/Pods-aqutiTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_aqutiTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1931339DFF87776F92ADC6A9D2106272 /* Build configuration list for PBXNativeTarget "Pods-aqutiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4739A6551AFC3EDF0F6DA78A3E61EEAF /* Debug */,
+				8CB1DF8C1F7E9FC9A539A3E20106DF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC963A6FC83C7CF303D8B5DC3C81284A /* Build configuration list for PBXNativeTarget "Pods-aquti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE4C18B590AC140A3C88E7247A40F9E /* Debug */,
+				37B575B2FF7EAD39BE81307C95E22733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5561A36733AB5D327A4B74A37E119BB /* Build configuration list for PBXNativeTarget "Pods-aqutiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB8C3580E9D900F67D92FAB3F511AB86 /* Debug */,
+				0B8C2A14AA22A98F481AECD8C4000CCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
